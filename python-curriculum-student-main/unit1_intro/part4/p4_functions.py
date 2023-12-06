@@ -176,6 +176,18 @@ def my_function_with_inner_function() -> None:
 
 # Exercise 1: Create a function called `exercise_1` that takes 3 arguments, one integer, one string and a list.
 #   Annotate the function with the correct types. The function should return a string that contains all the arguments.
+
+def excersize_1 (ints,str,lst)
+    String = str(ints) + str + str(lst)
+    return String
+
+
+list = ["avery", "sarah"]
+string = "mr.merritt'
+ints = 5
+
+print(excersize_1(ints,string,list))
+
 # Exercise 2: Create a function called `exercise_2` that recursively prints the first 10 multiples of the first argument.
 #  Annotate the function with the correct types. The function should return the last multiple.
 # Exercise 3: Create a function called `exercise_3` that builds a string from keyword arguments. Annotate the function.
